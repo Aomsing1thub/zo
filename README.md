@@ -79,7 +79,7 @@ a = num
 if a == i then
     if v.Character:WaitForChild("Humanoid") then  
 game.Players.LocalPlayer.Character.Humanoid:EquipTool(game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Naginata"))
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,-10,-1.3) * CFrame.Angles(math.rad(90),0,0)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,-9,-1.3) * CFrame.Angles(math.rad(90),0,0)
 workspace.CurrentCamera.CameraSubject = v.Character.Humanoid        
         end
     end
