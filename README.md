@@ -1,3 +1,4 @@
+repeat wait() until game:IsLoaded()
 Name_Dangerous = {"cIharger","Zelnect","TamperedReality","StevenMacLeod","ImLazuli","bink1337","Duckagon","RaRaRetlukk","Jonesybirb","SergeantSicarius","Jamix6","TyrantStrategizer","b1nkster","Vallithm","OniSinister","spegattii","RedFragment","HazelnutsChocolates","Olafinsky","Lewis_Schumer","sambirb","zboys"}
 Total = #game:GetService("Players"):GetChildren()
 ao = math.random(1,3)
