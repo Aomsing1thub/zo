@@ -1,4 +1,9 @@
 
+_G.Auto_Farm_Soul = false -- true
+_G.Auto_Farm_Hope = false -- true
+
+a1 = _G.Auto_Farm_Soul
+_G.Hope = _G.Auto_Farm_Hope
 spawn(function()
 Name_GUI = "Duck HUB"
 local Ui = game:GetService("CoreGui"):FindFirstChild(Name_GUI)
